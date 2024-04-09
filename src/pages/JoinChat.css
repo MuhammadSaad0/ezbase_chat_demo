@@ -1,0 +1,33 @@
+.join-chat-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .join-chat-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .join-chat-container select,
+  .join-chat-container button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .join-chat-container button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .join-chat-container button:hover {
+    background-color: #0056b3;
+  }
+  

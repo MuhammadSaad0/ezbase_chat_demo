@@ -1,0 +1,93 @@
+.chat-container {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 20px;
+    width: 30rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.messages-container {
+    height: 400px;
+    /* Set a fixed height */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+}
+
+.messages-wrapper {
+    padding: 10px;
+    /* Add padding for better appearance */
+}
+
+
+.message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(2, 84, 2)
+}
+
+.message p {
+    margin: 0;
+}
+
+.message span {
+    font-size: 12px;
+    color: #999;
+}
+
+/* .message:nth-child(even) {
+    background-color: #292727;
+} */
+
+/* .message:nth-child(odd) {
+    background-color: #1e2021;
+} */
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-container input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #0056b3;
+}
+
+.other-author {
+    background-color: rgb(68, 67, 67)
+}
+
+.file {
+    max-height: 28rem;
+    max-width: 20rem;
+}
+
+.author {
+    margin-bottom: rem;
+}
+
+.file-upload-container {
+    margin-top: 10px;
+}
